@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeb326ce5319cc6469317f2297f36c67, type: 3}
+  m_Name: Jooyoung_Setting
+  m_EditorClassIdentifier: 
+  cameraMovementOffset: 0.8
+  viewPercentileObjectsSpawn: 0.9
+  textEffectTimeOnScreen: 2
+  textEffectFliesUpSpeed: 1
+  energyTextColor: {r: 0, g: 1, b: 0, a: 1}
+  outOfEnergyTextColor: {r: 1, g: 0, b: 0, a: 1}
+  beeFlyingSpeed: 4
+  beeLoosingEnergySpeed: 1
+  beeMaxEnergy: 15
+  flowerRestoresEnergy: 5
+  flowerSpawnAfterDistanceTravelled: 0.2
+  maxFlowersInView: 6
+  sunParticleFallingSpeed: 1
+  sunParticleSpawnFrequency: 1
+  maxSunParticlesInView: 5
+  sunParticleMaxLifeLength: 3
+  sunParticleMinLifeLength: 1
+  debugMode: 1
+  seedFallingSpeed: 1
+  falliingSeedSpawnFrequency: 1
+  maxFallingSeedsInView: 5
+  falliingSeedMaxLifeLength: 3
+  falliingSeedMinLifeLength: 1
+  cloudMovementSpeed: 1.2
+  enemyMovementSpeed: 1.2
+  maxEnemiesInView: 5
+  enemyDamage: 5
+  clicksToEliminateEnemy: 2
+  enemySpawnFrequency: 1

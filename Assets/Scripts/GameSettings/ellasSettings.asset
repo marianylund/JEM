@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeb326ce5319cc6469317f2297f36c67, type: 3}
+  m_Name: ellasSettings
+  m_EditorClassIdentifier: 
+  targetDistancePast: 120.03
+  pastIntroduceCloud: 0.3
+  pastIntroduceEnemies: 0.5
+  pastFallingSeedSpawnChance: 1
+  pastMaxFallingSeedsInView: 6
+  pastMaxEnemiesInView: 2
+  pastEnemySpawnChance: 0.5
+  targetDistanceNow: 150
+  nowIntroduceCloud: 0.1
+  nowIntroduceEnemies: 0.1
+  nowFallingSeedSpawnChance: 0.5
+  nowMaxFallingSeedsInView: 3
+  nowMaxEnemiesInView: 6
+  nowEnemySpawnChance: 1
+  targetDistanceFuture: 200
+  futureIntroduceCloud: 0
+  futureIntroduceEnemies: 0
+  futureFallingSeedSpawnChance: 0.3
+  futureMaxFallingSeedsInView: 1
+  futureMaxEnemiesInView: 10
+  futureEnemySpawnChance: 1
+  numberOfBeesToStartWith: 15
+  beeFlyingSpeed: 2
+  beeWarmUpTimer: 3
+  beeLoosingEnergySpeed: 1
+  beeMaxEnergy: 15
+  onLoosingBeeRestoreEnergy: 10
+  beeSliderGradient:
+    serializedVersion: 2
+    key0: {r: 0.7882353, g: 0.2627451, b: 0.2509804, a: 1}
+    key1: {r: 0.96862745, g: 0.5764706, b: 0.11764706, a: 1}
+    key2: {r: 0.41960785, g: 0.5411765, b: 0.12156863, a: 0}
+    key3: {r: 0.41960785, g: 0.5411765, b: 0.12156863, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 13107
+    ctime1: 32768
+    ctime2: 65535
+    ctime3: 65535
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 1
+    m_NumColorKeys: 3
+    m_NumAlphaKeys: 2
+  flowerRestoresEnergy: 5
+  seedFallingSpeed: 0.8
+  fallingSeedSpawnChance: 0.3
+  maxFallingSeedsInView: 1
+  seedMaxLifeLength: 20
+  seedMinLifeLength: 10
+  cloudMovementSpeed: 1
+  darkenEffectMaxAlpha: 0.4
+  darkenEffectColor: {r: 0.245283, g: 0.2094162, b: 0.2094162, a: 0.4}
+  darkenEffectSpeed: 1
+  enemyMovementSpeed: 1.2
+  clicksToEliminateEnemy: 2
+  maxEnemiesInView: 10
+  enemySpawnChance: 1
+  rainTimer: 2
+  cameraMovementOffset: 0.8
+  spawnBounds:
+    serializedVersion: 2
+    x: 0
+    y: 0.06
+    width: 1
+    height: 0.6
+  enemySpawnBounds:
+    serializedVersion: 2
+    x: 0
+    y: 0.06
+    width: 1
+    height: 0.6
+  seedSpawnBounds:
+    serializedVersion: 2
+    x: -0.84
+    y: 0.52
+    width: 1
+    height: 0.32
+  debugMode: 1
+  enemySpawnBoundDebugColor: {r: 0.6320754, g: 0.21168566, b: 0.21168566, a: 1}
+  seedSpawnBoundDebugColor: {r: 0.118147045, g: 0.5566038, b: 0.118147045, a: 1}
+  NUMBER_OF_BEES: 15
